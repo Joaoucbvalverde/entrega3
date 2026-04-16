@@ -1,7 +1,8 @@
 export type RootStackParamList = {
   Login: undefined;
-  Home: { role: string };
+  Home: { role: 'Público' | 'Leitor' | 'Autor' | 'Editor' | 'Super Admin' };
   Cadastro: undefined;
   Detalhes: { id: string };
-  Perfil: { role: string };
+  BuscaUF: undefined;
+  BuscaTag: undefined;
 };
